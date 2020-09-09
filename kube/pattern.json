@@ -1,0 +1,12 @@
+{
+  "name": "pattern.ibm.mosquito.facemask.kube",
+  "services": [
+    {
+      "serviceUrl": "ibm.mosquito.facemask.kube",
+      "serviceOrgid": "mycluster",
+      "serviceArch": "amd64",
+      "serviceVersions": [ { "version": "1.0.0" } ]
+    }
+  ]
+}
+

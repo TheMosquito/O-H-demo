@@ -1,0 +1,7 @@
+{
+  "properties": [
+    { "name":"purpose", "value":"maskdetection" },
+    { "name":"environment", "value":"docker" }
+  ],
+  "constraints": []
+}

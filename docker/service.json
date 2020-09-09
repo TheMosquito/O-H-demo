@@ -1,0 +1,20 @@
+{
+  "org": "mycluster",
+  "url": "ibm.mosquito.facemask.docker",
+  "version": "1.0.0",
+  "arch": "amd64",
+  "public": true,
+  "sharable": "singleton",
+  "requiredServices": [],
+  "userInput": [],
+  "deployment": {
+    "services": {
+      "ibm.mosquito.facemask.docker": {
+        "image": "mikehollinger/vision-facemask@sha256:718ecb5dab5cfffd0bb3c63e85b59e608c4b2866fbc8b3f6e3054d407b52b92f",
+        "ports": [ 
+          { "HostIP": "0.0.0.0", "HostPort": "5001:5001/tcp" }
+	]
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "label": "...",
+  "description": "...",
+  "service": {
+    "name": "ibm.mosquito.facemask.docker",
+    "org": "mycluster",
+    "arch": "*",
+    "serviceVersions": [ { "version": "1.0.0" } ]
+  },
+  "properties": [],
+  "constraints": [
+    "purpose == maskdetection",
+    "environment == docker"
+  ],
+  "userInput": []
+}
